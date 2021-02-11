@@ -4,7 +4,8 @@
 
  const server = http.createServer((req, res) => {
     if(req.url === '/') {
-      res.end('<h1>Home</h1>')
+      res.write(200, {'Content-Type': 'text/html'});
+      res.end('<h1>Home</h1>');
     }
  });
 
