@@ -28,6 +28,9 @@
     case '.jpg':
       contentType = 'image/jpg';
       break;
+    case '.pdf':
+      contentType = 'application/pdf';
+      break;
   }
 
   // Read file
