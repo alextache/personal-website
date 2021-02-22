@@ -217,10 +217,13 @@ h6{ font-size:16px;};
 }
 
 .social-links{
-    display: grid;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.social-text{
+    margin-top:150px;
 }
 
 .social-links img{
