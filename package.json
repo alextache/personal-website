@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "dev": "nodemon index"
   },
@@ -11,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/alextache/personal-website.git"
   },
-  "author": "",
+  "author": "Alex Tache",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alextache/personal-website/issues"
